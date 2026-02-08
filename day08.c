@@ -9,13 +9,13 @@ Output:
 */
 #include<stdio.h>
 int power(int x, int y){
-   if y==1:
-     return x;
-   elif y==0:
-     return 1;
-   else:
-     return x * power(x, y-1);
-}
+   if y==1{
+     return x;}
+   else if y==0{
+     return 1;}
+   else{
+     return x * power(x, y-1);}
+};
 int main(){
   int a, b;
   printf("Enter a raised to power b:");
