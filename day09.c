@@ -8,13 +8,15 @@ hello
 Output:
 olleh
 */
-#inlude<stdio.h>
+#include<stdio.h>
+#include<string.h>
 int main(){
   char x[100];
   printf("Enter a string: ");
-  scanf(" %c", &x);
-  for (int i = len(x); i >=0; i--){
-     printf("%c", i);
+  scanf("%s", &x);
+  for (int i = strlen(x); i >=0; i--){
+     printf("%c", x[i]);
   }
 return 0;
 }
+  
