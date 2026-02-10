@@ -11,3 +11,4 @@ YES
 int main(){
   char s[1000];
   printf("Enter string:")
+  scanf("%s", &s);
